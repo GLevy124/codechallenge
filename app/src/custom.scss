@@ -1,0 +1,38 @@
+@import "vendor/bootstrap/css/bootstrap.css";
+@import "fonts/font-awesome-4.7.0/css/font-awesome.min.css";
+@import "fonts/themify/themify-icons.css";
+@import "fonts/Linearicons-Free-v1.0.0/icon-font.min.css";
+@import "fonts/elegant-font/html-css/style.css";
+@import "css/util.css";
+@import "css/main.css";
+
+// Custom Price Slider
+
+.rangeslider-horizontal {
+    .rangeslider__fill {
+        background-color: #0275ff;
+    }
+    .rangeslider__handle {
+        width: 25px;
+        height: 25px;
+        border-radius: 25px;
+        background-color: #0274fe;
+        box-shadow: none;
+        border: 0;
+
+        &::after {
+            display: none;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+
+// fix product detail page image sizing
+.item-slick3.main {
+    width: 100%;
+}
+
